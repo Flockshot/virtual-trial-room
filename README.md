@@ -35,7 +35,7 @@ This document formally defines the "what" of the system, capturing all functiona
 
 
 
-![Image: Main UML Use Case Diagram for the Virtual Trial Room](use_case_diagram.png)
+![Image: Main UML Use Case Diagram for the Virtual Trial Room](.media/use_case_diagram.png)
 
 ---
 
@@ -54,7 +54,7 @@ The SDD is structured around multiple architectural views:
     * **UML Component Diagrams:** Broke the system into modular software components (e.g., Web-UI, Database, 3D-Renderer, Payment-API-Connector).
     * **UML Deployment Diagrams:** Mapped the software components to a physical hardware infrastructure (e.g., Web Servers, Application Servers, Database Servers).
 
-![Image: Main UML Class Diagram for the Virtual Trial Room](class_diagram.png)
+![Image: Main UML Class Diagram for the Virtual Trial Room](.media/class_diagram.png)
 
 ---
 
