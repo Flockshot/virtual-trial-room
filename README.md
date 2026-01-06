@@ -25,19 +25,17 @@ The core challenge was to design a next-generation e-commerce platform that solv
 This document formally defines the "what" of the system, capturing all functional and non-functional requirements in compliance with the **ISO/IEC/IEEE 29148:2011** standard.
 
 * **Functional Requirements:** Detailed descriptions of all system behaviors, including:
-    * User Registration & Authentication.
-    * 3D Dummy Creation & Customization.
-    * Item Browsing, Filtering, and Search.
-    * Virtual "Try-On" Process.
-    * Payment Transaction Handling.
+    * User Registration & Authentication.
+    * 3D Dummy Creation & Customization.
+    * Item Browsing, Filtering, and Search.
+    * Virtual "Try-On" Process.
+    * Payment Transaction Handling.
 * **Non-Functional Requirements:** Defined constraints and quality attributes, such as performance (load time), security (payment data), and usability.
 * **UML Use Case Diagrams:** The system's behavior was modeled with Use Case diagrams, mapping all processes and interactions for each actor (e.g., Customer, Administrator, Bank API).
 
 
 
-> **[Image: Main UML Use Case Diagram for the Virtual Trial Room]**
->
-> *(**Developer Note:** Place the main Use Case diagram from your SRS here. It's the best overview of your system's functionality.)*
+![Image: Main UML Use Case Diagram for the Virtual Trial Room](use_case_diagram.png)
 
 ---
 
@@ -48,17 +46,15 @@ This document provides the architectural "blueprint" for the system, detailing t
 The SDD is structured around multiple architectural views:
 
 * **Logical View:**
-    * **UML Class Diagrams:** A detailed static model of the system, showing all classes (e.g., `Customer`, `Item`, `VirtualDummy`, `PaymentGateway`), their attributes, methods, and relationships (association, inheritance). 
+    * **UML Class Diagrams:** A detailed static model of the system, showing all classes (e.g., `Customer`, `Item`, `VirtualDummy`, `PaymentGateway`), their attributes, methods, and relationships (association, inheritance). 
 * **Process View:**
-    * **UML Activity Diagrams:** Modeled the flow of control for complex processes like "Checkout" or "Create Dummy."
-    * **UML Sequence Diagrams:** Showcased the time-based interactions between objects for key scenarios, such as `processPayment()`. 
+    * **UML Activity Diagrams:** Modeled the flow of control for complex processes like "Checkout" or "Create Dummy."
+    * **UML Sequence Diagrams:** Showcased the time-based interactions between objects for key scenarios, such as `processPayment()`. 
 * **Development & Physical Views:**
-    * **UML Component Diagrams:** Broke the system into modular software components (e.g., Web-UI, Database, 3D-Renderer, Payment-API-Connector).
-    * **UML Deployment Diagrams:** Mapped the software components to a physical hardware infrastructure (e.g., Web Servers, Application Servers, Database Servers).
+    * **UML Component Diagrams:** Broke the system into modular software components (e.g., Web-UI, Database, 3D-Renderer, Payment-API-Connector).
+    * **UML Deployment Diagrams:** Mapped the software components to a physical hardware infrastructure (e.g., Web Servers, Application Servers, Database Servers).
 
-> **[Image: Main UML Class Diagram for the Virtual Trial Room]**
->
-> *(**Developer Note:** Place the main Class Diagram from your SDD here. It shows the technical "blueprint" of your design.)*
+![Image: Main UML Class Diagram for the Virtual Trial Room](class_diagram.png)
 
 ---
 
